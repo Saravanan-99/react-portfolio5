@@ -1,0 +1,70 @@
+h1,
+h2,
+h3,
+h4 {
+  @extend .font-headline;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.8rem;
+  font-weight: 700;
+
+  @include breakpoint(tablet) {
+    font-size: 6em;
+    line-height: 1.2em;
+  }
+  @include breakpoint(desktop) {
+    font-size: 8em;
+    line-height: 1.2em;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1em;
+  margin-bottom: 0.6em;
+  font-weight: 700;
+
+  @include breakpoint(tablet) {
+    font-size: 5rem;
+    line-height: 1em;
+  }
+  @include breakpoint(laptop) {
+    font-size: 7rem;
+    line-height: 1em;
+  }
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+//fonts
+.font-headline {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+body {
+  @extend .font-body;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.large-copy {
+  font-size: 1.3em;
+  line-height: 1.6em;
+  @include breakpoint(tablet) {
+    font-size: 1.3em;
+    line-height: 1.6em;
+  }
+}

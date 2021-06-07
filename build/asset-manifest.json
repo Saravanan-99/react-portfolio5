@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71d0229c.chunk.css",
+    "main.js": "/static/js/main.bd36ee3c.chunk.js",
+    "main.js.map": "/static/js/main.bd36ee3c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6ea826f7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6ea826f7.js.map",
+    "static/js/2.cada738c.chunk.js": "/static/js/2.cada738c.chunk.js",
+    "static/js/2.cada738c.chunk.js.map": "/static/js/2.cada738c.chunk.js.map",
+    "static/js/3.8d9a4e82.chunk.js": "/static/js/3.8d9a4e82.chunk.js",
+    "static/js/3.8d9a4e82.chunk.js.map": "/static/js/3.8d9a4e82.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.71d0229c.chunk.css.map": "/static/css/main.71d0229c.chunk.css.map",
+    "static/js/2.cada738c.chunk.js.LICENSE.txt": "/static/js/2.cada738c.chunk.js.LICENSE.txt",
+    "static/media/google-pixel-5.a8fd1f11.png": "/static/media/google-pixel-5.a8fd1f11.png",
+    "static/media/macbook-air.d1aad9fe.svg": "/static/media/macbook-air.d1aad9fe.svg",
+    "static/media/shape-1.d23d0788.svg": "/static/media/shape-1.d23d0788.svg",
+    "static/media/shape-2.4835e61d.svg": "/static/media/shape-2.4835e61d.svg",
+    "static/media/shape-3.e9d32e02.svg": "/static/media/shape-3.e9d32e02.svg",
+    "static/media/shape-4-outline.e6db081c.svg": "/static/media/shape-4-outline.e6db081c.svg",
+    "static/media/shape-4.69b3a298.svg": "/static/media/shape-4.69b3a298.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ea826f7.js",
+    "static/js/2.cada738c.chunk.js",
+    "static/css/main.71d0229c.chunk.css",
+    "static/js/main.bd36ee3c.chunk.js"
+  ]
+}

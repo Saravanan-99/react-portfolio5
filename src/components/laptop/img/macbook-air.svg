@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="261px" viewBox="0 0 400 261" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>macbook air</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-5.4%" y="-76.2%" width="110.8%" height="252.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="6" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-5.1%" y="-8.5%" width="110.2%" height="116.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="6" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-9.4%" y="-180.0%" width="118.8%" height="460.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M353.075864,0 C361.686427,0 368.666667,6.97820268 368.666667,15.6015318 L368.666667,204.398468 C368.666667,213.014956 361.673594,220 353.075864,220 L47.5908022,220 C38.9802399,220 32,213.021797 32,204.398468 L32,15.6015318 C32,6.98504372 38.9930725,0 47.5908022,0 L353.075864,0 Z M352.666667,15.3333333 L48.6666667,15.3333333 L48.6666667,205.333333 L352.666667,205.333333 L352.666667,15.3333333 Z" id="path-4"></path>
+        <filter x="-0.1%" y="-0.2%" width="100.3%" height="100.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-0.3%" y="-0.5%" width="100.6%" height="101.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-7">
+            <stop stop-color="#BCBDBF" offset="0%"></stop>
+            <stop stop-color="#D8D8DF" offset="9.75964605%"></stop>
+            <stop stop-color="#D8D8DF" offset="88.8213489%"></stop>
+            <stop stop-color="#ADAABD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#CDCBD5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Macbook-air-mockup" transform="translate(-190.000000, -127.000000)">
+            <g id="macbook-air" transform="translate(190.000000, 139.000000)">
+                <g id="shadows" transform="translate(23.000000, 3.264346)" fill="#000000">
+                    <rect id="Rectangle-8" opacity="0.05" filter="url(#filter-1)" x="11.5333333" y="204.536218" width="333.6" height="23.6074004" rx="11.8037002"></rect>
+                    <rect id="Rectangle-8" opacity="0.05" filter="url(#filter-2)" x="0.133333333" y="0.143618689" width="353" height="213" rx="60"></rect>
+                    <rect id="Rectangle-2" opacity="0.5" filter="url(#filter-3)" x="20.3333333" y="204.666667" width="318.666667" height="16.6666667" rx="8.33333333"></rect>
+                </g>
+                <g id="case">
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-4"></use>
+                    </g>
+                    <rect id="front" fill="#FFFFFF" x="0" y="218" width="400" height="2.66666667"></rect>
+                    <path d="M164.666667,218 L236,218 L236,219 C236,219.552285 235.544479,220 234.99161,220 L165.675057,220 C165.118138,220 164.666667,219.556135 164.666667,219 L164.666667,218 Z" id="notch" fill-opacity="0.5" fill="url(#linearGradient-7)"></path>
+                    <path d="M64,225.333333 C9.61608481,225.333333 0,220.666667 0,220.666667 L0,220.666667 L200.666667,220 L400,220.666667 C400,220.666667 390.409524,225.333333 336,225.333333 Z" id="bottom" fill="url(#linearGradient-8)"></path>
+                </g>
+                <g id="screen" transform="translate(48.666667, 15.204766)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

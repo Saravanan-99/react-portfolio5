@@ -1,0 +1,50 @@
+.laptop {
+  position: relative;
+  top: 0%;
+  width: 100%;
+  max-width: 500px;
+  height: 0;
+  padding-top: 50%;
+  margin-bottom: 40px;
+  &--slideshow {
+    position: absolute;
+    width: 78%;
+    height: 100%;
+    top: 10%;
+    left: 12%;
+    overflow: hidden;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      width: 100% !important;
+    }
+  }
+  &--macbook {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: auto !important;
+  }
+
+  @include breakpoint(tablet) {
+    max-width: 350px;
+    margin-bottom: 0;
+    &--slideshow {
+      width: 78%;
+      top: 20px;
+    }
+  }
+  @include breakpoint(laptop) {
+    max-width: 450px;
+    &--slideshow {
+      width: 78%;
+      height: 100%;
+      top: 30px;
+      left: 55px;
+    }
+  }
+}

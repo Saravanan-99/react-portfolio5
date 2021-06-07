@@ -1,0 +1,146 @@
+//****************************************
+// hero
+//****************************************
+.section-hero {
+  padding-bottom: 0;
+  background: $color-accent;
+  overflow: visible;
+  height: auto;
+  position: relative;
+  &--copy {
+    grid-column: 2/6;
+    align-self: center;
+    padding: 50px 0 50px 0;
+    position: relative;
+    z-index: 1;
+    color: $color-contrast;
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 0.3em;
+      color: $color-contrast;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.5em;
+    }
+  }
+
+  &--image {
+    grid-column: 1/8;
+    align-self: end;
+    position: relative;
+    //justify-self: right;
+
+    .anim-type {
+      float: right;
+      width: 200px;
+      height: 160px;
+
+      svg {
+        display: block;
+      }
+    }
+  }
+
+  @include breakpoint(tablet) {
+    height: auto;
+    padding: 0;
+    &--copy {
+      grid-column: 2/6;
+      padding: 100px 0 200px 0;
+      p {
+        font-size: 1.4em;
+        line-height: 1.6em;
+        padding-right: 0;
+      }
+    }
+
+    &--image {
+      grid-column: 6/8;
+      max-width: 250px;
+      width: 100%;
+    }
+  }
+
+  @include breakpoint(desktop) {
+    min-height: 100vh;
+    &--copy {
+      grid-column: 2/6;
+      padding: 100px 0 200px 0;
+      p {
+        font-size: 1.4em;
+        line-height: 1.6em;
+        padding-right: 0;
+      }
+    }
+    &--image {
+      grid-column: 6/8;
+      max-width: 250px;
+      width: 100%;
+      .anim-type {
+        max-width: 400px;
+      }
+    }
+  }
+
+  .shape {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.85;
+    transform: scale(0.5);
+    &--1 {
+      bottom: 10%;
+      right: 10%;
+    }
+    &--2 {
+      bottom: 5%;
+    }
+    &--3 {
+      bottom: 15%;
+      right: 20%;
+    }
+    &--4 {
+      bottom: -20%;
+      right: 5%;
+    }
+    &--5 {
+      bottom: 0%;
+      right: 15%;
+      transform: rotate(20deg) scale(0.5);
+      svg path {
+        stroke: $color-base;
+        stroke-width: 0.5px;
+        fill: transparent;
+      }
+    }
+
+    @include breakpoint(tablet) {
+      transform: scale(1);
+      &--1 {
+        bottom: 60%;
+        right: 10%;
+      }
+      &--2 {
+        bottom: 30%;
+      }
+      &--3 {
+        bottom: 15%;
+        right: 20%;
+      }
+      &--4 {
+        bottom: -20%;
+        right: 5%;
+      }
+      &--5 {
+        bottom: 15%;
+        right: 15%;
+        svg path {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}

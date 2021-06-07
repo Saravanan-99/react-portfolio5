@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="216px" height="207px" viewBox="0 0 216 207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.156358726 0.345981904 215.40583 0.345981904 215.40583 206 0.156358726 206"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(-434.000000, -287.000000)">
+            <g id="Group-8" transform="translate(434.000000, 287.253000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-7"></g>
+                <path d="M25.3937,27.9966 C56.6207,-4.4634 105.0427,-4.3284 136.3937,7.9966 C204.4617,34.7576 235.6547,136.1316 201.3937,178.9966 C164.9567,224.5856 48.1447,211.9246 12.3937,144.9966 C-4.8483,112.7176 -6.6903,61.3486 25.3937,27.9966" id="Fill-6" fill="#28493D" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

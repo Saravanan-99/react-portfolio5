@@ -1,0 +1,181 @@
+.section-work {
+  display: grid;
+  position: relative;
+  color: $color-contrast;
+  padding: 8em 1.5em;
+  overflow: hidden;
+  p {
+    font-size: 15px;
+  }
+  @include breakpoint(tablet) {
+    padding: 200px 0;
+  }
+}
+.section-work--copy {
+  position: relative;
+  z-index: 1;
+  h2 {
+    padding-left: 0px;
+  }
+  p {
+    @extend .large-copy;
+    padding: 0;
+  }
+  @include breakpoint(tablet) {
+    grid-column: 5/8;
+    grid-row: 1;
+    padding-left: 10px;
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      padding-left: 20px;
+    }
+  }
+}
+
+.section-work--image {
+  grid-column: 1/-1;
+  grid-row: 1;
+  @include breakpoint(tablet) {
+    grid-column: 2/6;
+    grid-row: 1;
+  }
+  justify-self: left;
+  width: 100%;
+  position: relative;
+  .work-image--bg {
+    position: absolute;
+    max-height: 400px;
+    overflow: hidden;
+    img {
+      max-width: 100%;
+      object-fit: cover;
+      opacity: 0.7;
+    }
+  }
+  .work-image--fg {
+    padding-top: 150px;
+  }
+  @include breakpoint(tablet) {
+    .work-image--bg {
+      position: relative;
+    }
+    .work-image--fg {
+      padding-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.section-work--base {
+  grid-column: 1/-1;
+  grid-row: 3;
+
+  @include breakpoint(tablet) {
+    grid-column: 2/8;
+    grid-row: 2;
+  }
+  @include breakpoint(laptop) {
+    grid-column: 3/7;
+    grid-row: 2;
+  }
+}
+
+//alt layout
+.section-work.copy-left {
+  .section-work--copy {
+    grid-column: 1/-1;
+    grid-row: 2;
+    @include breakpoint(tablet) {
+      grid-column: 2/5;
+      grid-row: 1;
+    }
+  }
+  .section-work--image {
+    grid-column: 1/-1;
+    grid-row: 1;
+    @include breakpoint(tablet) {
+      grid-column: 4/8;
+      grid-row: 1;
+    }
+    .phone {
+      left: 50%;
+    }
+    .laptop {
+      left: 50%;
+    }
+  }
+}
+
+//Project Challenges
+.tabs--challenges {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+
+  li {
+    padding: 10px 0 10px 20px;
+    position: relative;
+    line-height: 22px;
+    border-bottom: 1px solid $color-base-lighter;
+
+    &:before {
+      content: ">";
+      @extend .font-headline;
+      font-size: 20px;
+      position: absolute;
+      left: 0;
+    }
+  }
+}
+//project CTA button
+.btn {
+  border: 1px solid $color-contrast;
+  color: $color-contrast;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  transition: all 0.2s ease;
+
+  &:hover,
+  &:focus {
+    background-color: $color-contrast;
+    color: $color-base;
+  }
+}
+//SVG outline shapes
+.work-image--shape {
+  top: 20px;
+  position: absolute;
+  svg path {
+    fill: transparent;
+    stroke: $color-contrast;
+    fill: transparent;
+  }
+}
+
+.section-work {
+  &:nth-child(1) {
+    .work-image--shape {
+      transform: translate(-10px, -10px);
+    }
+  }
+  &:nth-child(2) {
+    .work-image--shape {
+      transform: rotate(180deg) translate(60px, -10px);
+    }
+  }
+  &:nth-child(3) {
+    .work-image--shape {
+      transform: rotate(45deg) translate(150px, 0px);
+    }
+  }
+}
+
+.tabs--role {
+  text-transform: uppercase;
+  margin: 15px 0;
+}

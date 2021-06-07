@@ -1,0 +1,63 @@
+//****************************************
+// Contact
+//****************************************
+
+.section-contact {
+  background: $color-accent;
+  padding: 100px 1.5em;
+  position: relative;
+
+  h2 {
+    color: $color-contrast;
+    margin: 0;
+    opacity: 0.3;
+  }
+
+  &--copy {
+    padding-bottom: 70px;
+    p {
+      padding-left: 20px;
+      color: $color-contrast;
+      padding-right: 60px;
+    }
+
+    a {
+      @extend h3;
+      color: $color-contrast;
+    }
+    img {
+      position: relative;
+      top: 5px;
+      margin-right: 10px;
+    }
+  }
+
+  &--anim {
+    max-width: 200px;
+    position: absolute;
+    width: 200px;
+    height: 160px;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+  }
+
+  @include breakpoint(phablet) {
+    grid-template-columns: repeat(8, 1fr);
+    padding: 150px 0;
+    &--title {
+      grid-column: 2/4;
+      grid-row: 1;
+      align-self: normal;
+    }
+
+    &--copy {
+      grid-column: 4/8;
+      grid-row: 1;
+      padding-top: 120px;
+      p {
+        max-width: 400px;
+      }
+    }
+  }
+}
